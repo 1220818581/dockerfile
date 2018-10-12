@@ -4,5 +4,4 @@ dockerfile
 FROM nginx
 MAINTAINER James Turnbull "1220818581@qq.com"
 RUN apt-get update
-EXPOSE 80
 CMD [ "/bin/bash" ]
